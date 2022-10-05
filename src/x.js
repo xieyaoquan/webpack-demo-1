@@ -1,3 +1,4 @@
-import css from'./x.css'
-console,log(css.toString())
+import  './x.css'
+import  './y.css'
+// console.log(css.tostring())
 export default 'xxx'

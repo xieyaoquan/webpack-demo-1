@@ -16,6 +16,7 @@ new MiniCssExtractPlugin({
 })],
 module: {
   rules: [
+    ...base.module.rules,
     {
       test: /\.css$/i,
       use: [
